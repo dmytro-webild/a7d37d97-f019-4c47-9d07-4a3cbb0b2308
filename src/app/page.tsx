@@ -90,6 +90,29 @@ export default function LandingPage() {
     />
   </div>
 
+  <div id="lead-management" data-section="lead-management">
+      <FeatureCardTwentySix
+      textboxLayout="default"
+      useInvertedBackground={true}
+      features={[
+        {
+          title: "Zero Leakage",          description: "Our automated funnel ensures every lead is captured, tracked, and nurtured until conversion.",          imageSrc: "http://img.b2bpic.net/free-photo/abstract-data-flow-network_23-2149151161.jpg",          buttonIcon: Shield,
+        },
+        {
+          title: "Maximum ROI",          description: "Optimize every customer touchpoint to maximize revenue and reduce project abandonment.",          imageSrc: "http://img.b2bpic.net/free-photo/financial-growth-arrow-chart-3d-icon_56104-1929.jpg",          buttonIcon: TrendingUp,
+        },
+        {
+          title: "Automated Qualification",          description: "AI-driven scoring that instantly prioritizes high-value prospects for your sales team.",          imageSrc: "http://img.b2bpic.net/free-photo/ai-computing-digital-brain-concept_53876-101875.jpg",          buttonIcon: Cpu,
+        },
+        {
+          title: "Continuous Improvement",          description: "Automated feedback loops to refine your sales strategies based on real-time performance metrics.",          imageSrc: "http://img.b2bpic.net/free-photo/business-analytics-dashboard_23-2151003753.jpg",          buttonIcon: Zap,
+        },
+      ]}
+      title="Maximum ROI. Zero Leakage."
+      description="Revolutionizing your lead management infrastructure with precision-engineered AI automation."
+    />
+  </div>
+
   <div id="problem" data-section="problem">
       <AboutMetric
       useInvertedBackground={false}
@@ -209,6 +232,8 @@ export default function LandingPage() {
               label: "About",              href: "#"},
             {
               label: "Contact",              href: "#contact"},
+            {
+              label: "Claim Your Free Audit",              href: "#contact"},
           ],
         },
       ]}
