@@ -11,7 +11,7 @@ import HeroOverlay from '@/components/sections/hero/HeroOverlay';
 import MetricCardEleven from '@/components/sections/metrics/MetricCardEleven';
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
-import { AlertTriangle, Clock, Shield } from "lucide-react";
+import { AlertTriangle, Clock, Shield, Zap, MessageSquare, Database, TrendingUp, Search, Cpu, Layers } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -32,17 +32,11 @@ export default function LandingPage() {
       <NavbarStyleCentered
       navItems={[
         {
-          name: "Services",
-          id: "services",
-        },
+          name: "Services",          id: "services"},
         {
-          name: "Process",
-          id: "process",
-        },
+          name: "Process",          id: "process"},
         {
-          name: "Contact",
-          id: "contact",
-        },
+          name: "Contact",          id: "contact"},
       ]}
       brandName="Arman Digital"
     />
@@ -54,32 +48,20 @@ export default function LandingPage() {
       description="Empowering solar EPC companies with AI-powered sales systems and integrated infrastructure for a sustainable future."
       buttons={[
         {
-          text: "Book a Demo",
-          href: "#contact",
-        },
+          text: "Book a Demo",          href: "#contact"},
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/modern-background-connecting-lines-dots_1048-7966.jpg"
       avatars={[
         {
-          src: "http://img.b2bpic.net/free-photo/workers-using-ai-computing-simulation_482257-75500.jpg",
-          alt: "AI simulation worker",
-        },
+          src: "http://img.b2bpic.net/free-photo/workers-using-ai-computing-simulation_482257-75500.jpg",          alt: "AI simulation worker"},
         {
-          src: "http://img.b2bpic.net/free-photo/businessman-working-futuristic-office_23-2151003753.jpg",
-          alt: "Futuristic office workspace",
-        },
+          src: "http://img.b2bpic.net/free-photo/businessman-working-futuristic-office_23-2151003753.jpg",          alt: "Futuristic office workspace"},
         {
-          src: "http://img.b2bpic.net/free-photo/businesswoman-networking-using-digital-devices_53876-101875.jpg",
-          alt: "Businesswoman networking",
-        },
+          src: "http://img.b2bpic.net/free-photo/businesswoman-networking-using-digital-devices_53876-101875.jpg",          alt: "Businesswoman networking"},
         {
-          src: "http://img.b2bpic.net/free-photo/person-using-ar-technology-their-daily-occupation_23-2151137317.jpg",
-          alt: "AR tech user",
-        },
+          src: "http://img.b2bpic.net/free-photo/person-using-ar-technology-their-daily-occupation_23-2151137317.jpg",          alt: "AR tech user"},
         {
-          src: "http://img.b2bpic.net/free-photo/modern-businessman-uses-virtual-reality-gadget-neural-network-system_482257-126216.jpg",
-          alt: "VR business professional",
-        },
+          src: "http://img.b2bpic.net/free-photo/modern-businessman-uses-virtual-reality-gadget-neural-network-system_482257-126216.jpg",          alt: "VR business professional"},
       ]}
       avatarText="Trusted by 500+ solar energy innovators worldwide"
     />
@@ -91,28 +73,16 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          title: "AI Lead Generation",
-          description: "Automated pipeline management specifically configured for the solar EPC lifecycle.",
-          imageSrc: "http://img.b2bpic.net/free-photo/futuristic-ai-data-visualization_23-2151977857.jpg",
-          buttonIcon: "Zap",
+          title: "AI Lead Generation",          description: "Automated pipeline management specifically configured for the solar EPC lifecycle.",          imageSrc: "http://img.b2bpic.net/free-photo/futuristic-ai-data-visualization_23-2151977857.jpg",          buttonIcon: Zap,
         },
         {
-          title: "Customer Support AI",
-          description: "24/7 intelligent response systems that resolve queries instantly and qualify leads.",
-          imageSrc: "http://img.b2bpic.net/free-photo/woman-using-transparent-tablet-innovative-technology_53876-97074.jpg",
-          buttonIcon: "MessageSquare",
+          title: "Customer Support AI",          description: "24/7 intelligent response systems that resolve queries instantly and qualify leads.",          imageSrc: "http://img.b2bpic.net/free-photo/woman-using-transparent-tablet-innovative-technology_53876-97074.jpg",          buttonIcon: MessageSquare,
         },
         {
-          title: "Smart Data Integration",
-          description: "Unified data pipelines that connect your CRM, engineering tools, and solar project management.",
-          imageSrc: "http://img.b2bpic.net/free-photo/person-touching-tablet-graphics-coming-out-it_1232-1399.jpg",
-          buttonIcon: "Database",
+          title: "Smart Data Integration",          description: "Unified data pipelines that connect your CRM, engineering tools, and solar project management.",          imageSrc: "http://img.b2bpic.net/free-photo/person-touching-tablet-graphics-coming-out-it_1232-1399.jpg",          buttonIcon: Database,
         },
         {
-          title: "Sales Performance Optimization",
-          description: "Advanced analytics to optimize sales velocity and reduce project lead abandonment.",
-          imageSrc: "http://img.b2bpic.net/free-photo/woman-watching-business-conference-computer-screen-looking-statistics_482257-125563.jpg",
-          buttonIcon: "TrendingUp",
+          title: "Sales Performance Optimization",          description: "Advanced analytics to optimize sales velocity and reduce project lead abandonment.",          imageSrc: "http://img.b2bpic.net/free-photo/woman-watching-business-conference-computer-screen-looking-statistics_482257-125563.jpg",          buttonIcon: TrendingUp,
         },
       ]}
       title="Our Specialized Solutions"
@@ -127,19 +97,13 @@ export default function LandingPage() {
       metrics={[
         {
           icon: AlertTriangle,
-          label: "Lead Leakage",
-          value: "Eliminated",
-        },
+          label: "Lead Leakage",          value: "Eliminated"},
         {
           icon: Clock,
-          label: "Response Time",
-          value: "Instant",
-        },
+          label: "Response Time",          value: "Instant"},
         {
           icon: Shield,
-          label: "Pipeline Reliability",
-          value: "High",
-        },
+          label: "Pipeline Reliability",          value: "High"},
       ]}
       metricsAnimation="slide-up"
     />
@@ -152,26 +116,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       metrics={[
         {
-          id: "m1",
-          value: "$10M+",
-          title: "Revenue Generated",
-          description: "Tangible revenue growth for our partners through optimized systems.",
-          imageSrc: "http://img.b2bpic.net/free-photo/glow-arrow-graph-analytics-3d-icon-bubble-speech-chat-3d-rendering_56104-1929.jpg",
-        },
+          id: "m1",          value: "$10M+",          title: "Revenue Generated",          description: "Tangible revenue growth for our partners through optimized systems.",          imageSrc: "http://img.b2bpic.net/free-photo/glow-arrow-graph-analytics-3d-icon-bubble-speech-chat-3d-rendering_56104-1929.jpg"},
         {
-          id: "m2",
-          value: "24/7",
-          title: "Response Availability",
-          description: "Instant support ensuring no solar potential buyer goes cold.",
-          imageSrc: "http://img.b2bpic.net/free-photo/man-with-clock-graph-fire_1134-464.jpg",
-        },
+          id: "m2",          value: "24/7",          title: "Response Availability",          description: "Instant support ensuring no solar potential buyer goes cold.",          imageSrc: "http://img.b2bpic.net/free-photo/man-with-clock-graph-fire_1134-464.jpg"},
         {
-          id: "m3",
-          value: "3x",
-          title: "Lead Conversion",
-          description: "Engineered growth through intelligent data integration.",
-          imageSrc: "http://img.b2bpic.net/free-photo/data-network-abstract-concept_23-2152004105.jpg",
-        },
+          id: "m3",          value: "3x",          title: "Lead Conversion",          description: "Engineered growth through intelligent data integration.",          imageSrc: "http://img.b2bpic.net/free-photo/data-network-abstract-concept_23-2152004105.jpg"},
       ]}
       title="Quantifiable impact we deliver for our high-growth partners"
       description="Driven by data, engineered for dominance."
@@ -184,28 +133,16 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          title: "Discovery",
-          description: "Understanding your existing sales engineering challenges.",
-          imageSrc: "http://img.b2bpic.net/free-photo/data-hand_23-2151957116.jpg",
-          buttonIcon: "Search",
+          title: "Discovery",          description: "Understanding your existing sales engineering challenges.",          imageSrc: "http://img.b2bpic.net/free-photo/data-hand_23-2151957116.jpg",          buttonIcon: Search,
         },
         {
-          title: "AI Strategy",
-          description: "Defining the roadmap for infrastructure automation.",
-          imageSrc: "http://img.b2bpic.net/free-photo/desktop-pc-wooden-desk-showcases-infographics-client-reach-data_482257-126876.jpg",
-          buttonIcon: "Cpu",
+          title: "AI Strategy",          description: "Defining the roadmap for infrastructure automation.",          imageSrc: "http://img.b2bpic.net/free-photo/desktop-pc-wooden-desk-showcases-infographics-client-reach-data_482257-126876.jpg",          buttonIcon: Cpu,
         },
         {
-          title: "Integration",
-          description: "Seamlessly layering AI into your daily operational workflow.",
-          imageSrc: "http://img.b2bpic.net/free-photo/business-concept-with-progress-close-up_23-2149151161.jpg",
-          buttonIcon: "Layers",
+          title: "Integration",          description: "Seamlessly layering AI into your daily operational workflow.",          imageSrc: "http://img.b2bpic.net/free-photo/business-concept-with-progress-close-up_23-2149151161.jpg",          buttonIcon: Layers,
         },
         {
-          title: "Growth",
-          description: "Continuous monitoring and rapid optimization.",
-          imageSrc: "http://img.b2bpic.net/free-photo/abstract-background-cyclist-design_183364-118217.jpg",
-          buttonIcon: "TrendingUp",
+          title: "Growth",          description: "Continuous monitoring and rapid optimization.",          imageSrc: "http://img.b2bpic.net/free-photo/abstract-background-cyclist-design_183364-118217.jpg",          buttonIcon: TrendingUp,
         },
       ]}
       title="The Arman Process"
@@ -218,20 +155,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       faqs={[
         {
-          id: "1",
-          title: "How fast is integration?",
-          content: "Our modular integration typically deploys in 4-6 weeks.",
-        },
+          id: "1",          title: "How fast is integration?",          content: "Our modular integration typically deploys in 4-6 weeks."},
         {
-          id: "2",
-          title: "Is the AI compliant?",
-          content: "We ensure full compliance with regional solar sector regulations.",
-        },
+          id: "2",          title: "Is the AI compliant?",          content: "We ensure full compliance with regional solar sector regulations."},
         {
-          id: "3",
-          title: "Can I keep my current CRM?",
-          content: "Yes, our systems are built for plug-and-play compatibility.",
-        },
+          id: "3",          title: "Can I keep my current CRM?",          content: "Yes, our systems are built for plug-and-play compatibility."},
       ]}
       sideTitle="Common Questions"
       sideDescription="Everything you need to know about scaling your solar EPC with Arman."
@@ -244,14 +172,7 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       names={[
-        "SunTech Corp",
-        "Global Energy Grid",
-        "SolarSolutions",
-        "FuturePower",
-        "Green EPC",
-        "Energy Innovators",
-        "BrightGrid",
-      ]}
+        "SunTech Corp",        "Global Energy Grid",        "SolarSolutions",        "FuturePower",        "Green EPC",        "Energy Innovators",        "BrightGrid"]}
       title="Trusted by Solar Leaders"
       description="Industry partners driving the energy transition with Arman digital infrastructure."
     />
@@ -261,14 +182,11 @@ export default function LandingPage() {
       <ContactText
       useInvertedBackground={false}
       background={{
-        variant: "sparkles-gradient",
-      }}
+        variant: "sparkles-gradient"}}
       text="Schedule your free discovery call to receive a custom AI growth strategy roadmap. No obligation, just actionable insights."
       buttons={[
         {
-          text: "Get Consultation",
-          href: "#",
-        },
+          text: "Get Consultation",          href: "#"},
       ]}
     />
   </div>
@@ -278,29 +196,19 @@ export default function LandingPage() {
       logoText="Arman Digital Infrastructure"
       columns={[
         {
-          title: "Platform",
-          items: [
+          title: "Platform",          items: [
             {
-              label: "Solutions",
-              href: "#services",
-            },
+              label: "Solutions",              href: "#services"},
             {
-              label: "Process",
-              href: "#process",
-            },
+              label: "Process",              href: "#process"},
           ],
         },
         {
-          title: "Company",
-          items: [
+          title: "Company",          items: [
             {
-              label: "About",
-              href: "#",
-            },
+              label: "About",              href: "#"},
             {
-              label: "Contact",
-              href: "#contact",
-            },
+              label: "Contact",              href: "#contact"},
           ],
         },
       ]}
